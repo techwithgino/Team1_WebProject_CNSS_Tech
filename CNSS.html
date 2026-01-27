@@ -120,6 +120,31 @@
         background: #f1f5f9;
     }
 
+	.solutions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .solution-box {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .solution-box h3 {
+            margin-top: 0;
+            color: #0f766e;
+        }
+
+	.solution-box img {
+	     width: 100%;
+	     height: auto;
+	     border-radius: 4px;
+	     margin-bottom: 1rem;
+	}
+
     footer {
         background: #0f172a;
         color: #ffffff;
@@ -161,6 +186,7 @@
     <div class="navigation">
         <a href="#services">Services</a>
         <a href="#about">About</a>
+	<a href="#solutions">Solutions</a>
         <a href="#contact">Contact</a>
     </div>
 
@@ -232,7 +258,63 @@
         </div>
     </section>
 
-<section id="contact">
+    <section id="solutions">
+        <div class="container">
+            <h2>Why choose us?</h2>
+                <div class="solutions">
+                    <div class="solution-box">
+			<img src="s1.jpg" alt="Solution" class="box-pic">
+                        <h3>Slow or Unreliable Network</h3>
+                        <p>
+                            We diagnose and optimize your network to ensure fast, stable, and reliable connectivity across your business.
+                        </p>
+                    </div>
+
+                    <div class="solution-box">
+			<img src="s2.png" alt="Solution" class="box-pic">
+                        <h3>Security Concerns</h3>
+                        <p>
+                            Protect your systems and data with strong network security, firewalls, monitoring, and best practices.
+                        </p>
+                    </div>
+
+                    <div class="solution-box">
+			<img src="s3.jpg" alt="Solution" class="box-pic">
+                        <h3>No In-House IT Department</h3>
+                        <p>
+                            Get professional IT support and management without the cost of hiring a full-time IT team.
+                        </p>
+                    </div>
+
+                    <div class="solution-box">
+			<img src="s4.png" alt="Solution" class="box-pic">
+                        <h3>Frequent System Failures</h3>
+                        <p>
+                            We stabilize, maintain, and monitor your systems to reduce  downtime and prevent recurring issues.
+                        </p>
+                    </div>
+
+                    <div class="solution-box">
+			<img src="s5.jpg" alt="Solution" class="box-pic">
+                        <h3>Need Expert IT Advice</h3>
+                        <p>
+                           Receive clear, practical guidance for technology decisions, upgrades, and long-term IT planning.
+                        </p>
+                    </div>
+
+                    <div class="solution-box">
+			<img src="s6.jpg" alt="Solution" class="box-pic">
+                        <h3>Small Office & Enterprise Networks</h3>
+                        <p>
+                            Design and build secure, scalable networks tailored for small offices and growing enterprises.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+<section id="contact" class="about">
     <div class="container">
         <h2>Contact Us</h2>
             <p>

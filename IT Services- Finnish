@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT‑verkkopalvelut | CNSS Tech</title>
-    <meta name="description" content="Tutustu CNSS Techin IT‑verkkopalveluihin: turvalliset verkkoinfrastruktuurit, asennus, ylläpito ja yrityksesi tarpeisiin räätälöidyt ratkaisut.">
+    <meta name="description" content="CNSS Tech tarjoaa IT‑verkkopalveluja: verkkoinfrastruktuurien suunnittelu, asennus, ylläpito ja turvalliset ratkaisut yrityksesi tarpeisiin.">
 
     <style>
         body {
@@ -25,44 +25,44 @@
             font-weight: bold;
         }
 
-    .logo-blend {
-        height: 70px;
-        mix-blend-mode: multiply;
-        opacity: 0.9;
-        filter: contrast(1.05);
-    }
+        .logo-blend {
+            height: 70px;
+            mix-blend-mode: multiply;
+            opacity: 0.9;
+            filter: contrast(1.05);
+        }
 
-    .brand {
-        display: flex;
-        align-items: center;
-        gap: 1rem;;
-    }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
 
-    .brand-name {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #003135;
-        line-height: 1;
-    }
+        .brand-name {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #003135;
+            line-height: 1;
+        }
 
-.logo-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        .logo-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-.back-home {
-    margin-top: 0.3rem;
-    font-size: 0.85rem;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .back-home {
+            margin-top: 0.3rem;
+            font-size: 0.85rem;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-.back-home:hover {
-    text-decoration: underline;
-}
+        .back-home:hover {
+            text-decoration: underline;
+        }
 
         .container {
             max-width: 1000px;
@@ -76,6 +76,10 @@
 
         p {
             font-size: 1.1rem;
+        }
+
+        ul {
+            margin-left: 1.2rem;
         }
 
         .btn-back {
@@ -108,15 +112,15 @@
     <div class="container">
         <div class="brand">
 
-    <div class="logo-wrapper">
-        <a href="CNSS.html">
-            <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech -logo" class="logo-blend">
-        </a>
-        <a href="CNSS.html" class="back-home">← Takaisin etusivulle</a>
-    </div>
+            <div class="logo-wrapper">
+                <a href="CNSS.html">
+                    <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech -logo" class="logo-blend">
+                </a>
+                <a href="CNSS.html" class="back-home">← Takaisin etusivulle</a>
+            </div>
 
-    <span class="brand-name">CNSS Tech</span>
-    </div>
+            <span class="brand-name">CNSS Tech</span>
+        </div>
     </div>
 </header>
 
@@ -145,4 +149,5 @@
 
 </body>
 </html>
+
 

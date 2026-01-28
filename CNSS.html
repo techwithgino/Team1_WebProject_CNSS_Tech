@@ -47,6 +47,7 @@
         color: #003135;
         line-height: 1;
     }
+
     .navigation a {
         color: #ffffff;
         margin-left: 1rem;
@@ -61,7 +62,7 @@
     .hero {
         background: url("img1.jpg") center/cover no-repeat;
         color: #ffffff;
-        padding:  5rem 1.5rem;
+        padding: 5rem 1.5rem;
         text-align: center;
     }
 
@@ -98,10 +99,12 @@
         padding: 3rem 1.5rem;
     }
 
+    /* ⭐ FIX: Equal-height service boxes */
     .services {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 2rem;
+        align-items: stretch;
     }
 
     .service-box {
@@ -109,68 +112,67 @@
         padding: 2rem;
         border-radius: 6px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     .service-box p {
-    flex-grow: 1;
+        flex-grow: 1;
     }
 
     .service-box h3 {
         margin-top: 0;
         color: #00887A;
     }
-    .service-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
 
-        margin-top: 1rem;
+    /* ⭐ FIX: Button stays aligned at bottom */
+    .service-btn {
+        margin-top: auto;
         background: #00887A;
         color: #ffffff;
         padding: 0.6rem 1.6rem;
-
         text-decoration: none;
         font-weight: bold;
         font-size: 0.9rem;
-
         border-radius: 9999px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .service-btn:hover {
         background: #024950;
-        }
+    }
 
     .about {
         background: #f1f5f9;
     }
 
-	.solutions {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
+    .solutions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
 
-        .solution-box {
-            background: #f8fafc;
-            padding: 2rem;
-            border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
+    .solution-box {
+        background: #f8fafc;
+        padding: 2rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
 
-        .solution-box h3 {
-            margin-top: 0;
-            color: #0f766e;
-        }
+    .solution-box h3 {
+        margin-top: 0;
+        color: #0f766e;
+    }
 
-	.solution-box img {
-            width: 100%;
-            height: auto;
-            border-radius: 4px;
-            margin-bottom: 1rem;
-	}
+    .solution-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
 
     footer {
         background: #0f172a;
@@ -203,93 +205,92 @@
 </head>
 
 <body>
-    <header>
+<header>
     <div class="container">
         <div class="brand">
-
             <a href="index.html">
-            <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech Logo" class="logo-blend">
+                <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech Logo" class="logo-blend">
             </a>
-
             <span class="brand-name">CNSS Tech</span>
         </div>
     
-    <div class="navigation">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-	<a href="#solutions">Solutions</a>
-        <a href="#contact">Contact</a>
+        <div class="navigation">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="language">
+            <a href="index.html">
+                <button onclick="setLanguage('en')" class="active">EN</button>
+            </a>
+
+            <a href="CNSS-fi.html">
+                <button onclick="setLanguage('fi')">FI</button>
+            </a>
+        </div>
     </div>
-
-    <div class="language">
-        <a href="index.html">
-        <button onclick="setLanguage('en')" class="active">EN</button>
-        </a>
-
-        <a href="CNSS-fi.html">
-        <button onclick="setLanguage('fi')">FI</button>
-        </a>
-
-    </div>
-
-    </header>
+</header>
 
 <section class="hero">
     <div class="container">
         <h2>Reliable IT Network & System Solutions</h2>
-            <p>
-                CNSS Tech delivers professional IT Network and System Services, along with expert IT Consultancy 
-                to help businesses stay secure, connected, and efficient.
-            </p>
+        <p>
+            CNSS Tech delivers professional IT Network and System Services, along with expert IT Consultancy 
+            to help businesses stay secure, connected, and efficient.
+        </p>
         <a href="#contact" class="btn">Get in touch</a>
     </div>
 </section>
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-                <div class="services">
-                    <div class="service-box">
-                        <h3>IT Network Services</h3>
-                        <p>
-                            Design, installation, configuration, and maintenance of 
-                            secure and scalable network infrastructures.
-                        </p>
-                        <a href="IT Services.html" class="service-btn">Learn More</a>
-                    </div>
 
-                    <div class="service-box">
-                        <h3>System Administration</h3>
-                        <p>
-                            Server setup, monitoring, backups, and system optimization 
-                            to ensure reliability and performance.
-                        </p>
-                        <a href="System Ad.html" class="service-btn">Learn More</a>
-                    </div>
+<section id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
 
-                    <div class="service-box">
-                        <h3>IT Consultancy</h3>
-                        <p>
-                            Strategic IT advice, technology planning, and problem-solving 
-                            tailored to your business needs.
-                        </p>
-                        <a href="IT_Consultancy.html" class="service-btn">Learn More</a>
-                    </div>
+            <div class="service-box">
+                <h3>IT Network Services</h3>
+                <p>
+                    Design, installation, configuration, and maintenance of 
+                    secure and scalable network infrastructures.
+                </p>
+                <a href="IT Services.html" class="service-btn">Learn More</a>
+            </div>
 
-                    <div class="service-box">
-                        <h3>Security & Support</h3>
-                        <p>
-                            Network security, troubleshooting, and ongoing IT support 
-                            to protect and support your operations.
-                        </p>
-                        <a href="Security.html" class="service-btn">Learn More</a>
-                    </div>
-                </div>
+            <div class="service-box">
+                <h3>System Administration</h3>
+                <p>
+                    Server setup, monitoring, backups, and performance tuning to keep your systems secure and reliable.
+                </p>
+                <a href="System Ad.html" class="service-btn">Learn More</a>
+            </div>
+
+            <div class="service-box">
+                <h3>IT Consultancy</h3>
+                <p>
+                    Strategic IT advice, technology planning, and problem-solving 
+                    tailored to your business needs.
+                </p>
+                <a href="IT_Consultancy.html" class="service-btn">Learn More</a>
+            </div>
+
+            <div class="service-box">
+                <h3>Security & Support</h3>
+                <p>
+                    Network security, troubleshooting, and ongoing IT support 
+                    to protect and support your operations.
+                </p>
+                <a href="Security.html" class="service-btn">Learn More</a>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About CNSS Tech</h2>
+<section id="about" class="about">
+    <div class="container">
+        <h2>About CNSS Tech</h2>
         <p>
             CNSS Tech is an independent IT services provider focused on delivering dependable, secure, and efficient technology solutions. 
             We work closely with our clients to understand their unique challenges and provide practical, cost-effective IT services and consultancy tailored to their business needs.
@@ -298,63 +299,65 @@
             Our team consists of highly skilled professionals, including Cisco-certified engineers, Fortinet security certified experts, and F5 administrators, 
             ensuring that every solution we deliver meets the highest standards of reliability, security, and performance.
         </p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <section id="solutions">
-        <div class="container">
-            <h2>Why Choose Us?</h2>
-                <div class="solutions">
-                    <div class="solution-box">
-			<img src="s1.jpg" alt="Solution" class="box-pic">
-                        <h3>Slow or Unreliable Network</h3>
-                        <p>
-                            We diagnose and optimize your network to ensure fast, stable, and reliable connectivity across your business.
-                        </p>
-                    </div>
+<section id="solutions">
+    <div class="container">
+        <h2>Why Choose Us?</h2>
+        <div class="solutions">
 
-                    <div class="solution-box">
-			<img src="s2.png" alt="Solution" class="box-pic">
-                        <h3>Security Concerns</h3>
-                        <p>
-                            Protect your systems and data with strong network security, firewalls, monitoring, and best practices.
-                        </p>
-                    </div>
+            <div class="solution-box">
+                <img src="s1.jpg" alt="Solution" class="box-pic">
+                <h3>Slow or Unreliable Network</h3>
+                <p>
+                    We diagnose and optimize your network to ensure fast, stable, and reliable connectivity across your business.
+                </p>
+            </div>
 
-                    <div class="solution-box">
-			<img src="s3.jpg" alt="Solution" class="box-pic">
-                        <h3>No In-House IT Department</h3>
-                        <p>
-                            Get professional IT support and management without the cost of hiring a full-time IT team.
-                        </p>
-                    </div>
+            <div class="solution-box">
+                <img src="s2.png" alt="Solution" class="box-pic">
+                <h3>Security Concerns</h3>
+                <p>
+                    Protect your systems and data with strong network security, firewalls, monitoring, and best practices.
+                </p>
+            </div>
 
-                    <div class="solution-box">
-			<img src="s4.png" alt="Solution" class="box-pic">
-                        <h3>Frequent System Failures</h3>
-                        <p>
-                            We stabilize, maintain, and monitor your systems to reduce  downtime and prevent recurring issues.
-                        </p>
-                    </div>
+            <div class="solution-box">
+                <img src="s3.jpg" alt="Solution" class="box-pic">
+                <h3>No In-House IT Department</h3>
+                <p>
+                    Get professional IT support and management without the cost of hiring a full-time IT team.
+                </p>
+            </div>
 
-                    <div class="solution-box">
-			<img src="s5.jpg" alt="Solution" class="box-pic">
-                        <h3>Need Expert IT Advice</h3>
-                        <p>
-                        Receive clear, practical guidance for technology decisions, upgrades, and long-term IT planning.
-                        </p>
-                    </div>
+            <div class="solution-box">
+                <img src="s4.png" alt="Solution" class="box-pic">
+                <h3>Frequent System Failures</h3>
+                <p>
+                    We stabilize, maintain, and monitor your systems to reduce downtime and prevent recurring issues.
+                </p>
+            </div>
 
-                    <div class="solution-box">
-			<img src="s6.jpg" alt="Solution" class="box-pic">
-                        <h3>Small Office & Enterprise Networks</h3>
-                        <p>
-                            Design and build secure, scalable networks tailored for small offices and growing enterprises.
-                        </p>
-                    </div>
-                    <div class="solution-box">
-                        <img src="s7.png" alt="Solution" class="box-pic">
-                            <h3>Finnish expertise you can trust</h3>
+            <div class="solution-box">
+                <img src="s5.jpg" alt="Solution" class="box-pic">
+                <h3>Need Expert IT Advice</h3>
+                <p>
+                    Receive clear, practical guidance for technology decisions, upgrades, and long-term IT planning.
+                </p>
+            </div>
+
+            <div class="solution-box">
+                <img src="s6.jpg" alt="Solution" class="box-pic">
+                <h3>Small Office & Enterprise Networks</h3>
+                <p>
+                    Design and build secure, scalable networks tailored for small offices and growing enterprises.
+                </p>
+            </div>
+
+            <div class="solution-box">
+                <img src="s7.png" alt="Solution" class="box-pic">
+                <h3>Finnish expertise you can trust</h3>
                 <p>
                     A locally owned business led by an IT professional with years of experience, delivering reliable, practical solutions for your company.
                 </p>
@@ -367,26 +370,23 @@
                     Access expert IT help instantly, anytime, reducing downtime and keeping your business running smoothly.
                 </p>
             </div>
+
         </div>
-
-
-			
-        </div>
-    </section>
-
+    </div>
+</section>
 
 <section id="contact" class="about">
     <div class="container">
         <h2>Contact Us</h2>
-            <p>
-                Ready to improve your IT infrastructure or need expert advice? 
-                Get in touch with CNSS Tech today.
-            </p>
+        <p>
+            Ready to improve your IT infrastructure or need expert advice? 
+            Get in touch with CNSS Tech today.
+        </p>
 
-            <p>
-                <strong>Email:</strong> info@cnsstech.com<br />
-                <strong>Phone:</strong> +358 41 740 8331
-            </p>
+        <p>
+            <strong>Email:</strong> info@cnsstech.com<br />
+            <strong>Phone:</strong> +358 41 740 8331
+        </p>
     </div>
 </section>
 
@@ -399,5 +399,6 @@
         IT Network & System Services | IT Consultancy
     </p>
 </footer>
+
 </body>
 </html>

@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turvallisuus ja tuki | CNSS Tech</title>
-    <meta name="description" content="Lue lisää CNSS Techin turvallisuus- ja tukipalveluista, kuten verkkoturvallisuudesta, vianmäärityksestä ja jatkuvasta IT-tuesta.">
+    <meta name="description" content="CNSS Tech tarjoaa turvallisuus- ja tukipalveluja: verkkoturva, valvonta, vianmääritys ja jatkuva IT‑tuki yrityksesi toimintavarmuuden varmistamiseksi.">
 
     <style>
         body {
@@ -24,7 +24,6 @@
             text-decoration: none;
             font-weight: bold;
         }
-
 
     .logo-blend {
         height: 70px;
@@ -128,30 +127,26 @@
 <div class="container">
     <h1>Turvallisuus ja tuki</h1>
     <p>
-        CNSS Tech tarjoaa ammattimaisia turvallisuus- ja tukipalveluja, joiden avulla IT-infrastruktuurisi pysyy turvallisena, vakaana ja täysin toimintakunnossa. Palveluihimme kuuluu:
+        CNSS Tech tarjoaa ammattimaisia turvallisuus- ja tukipalveluja, joiden avulla IT‑ympäristösi pysyy turvallisena, vakaana ja toimintavarmana. Palveluihimme kuuluu:
     </p>
     <ul>
-        <li>Verkkoturvallisuuden käyttöönotto, mukaan lukien palomuurit ja valvonta</li>
-        <li>IT-ongelmien nopea vianmääritys ja ratkaisu</li>
-        <li>Jatkuva IT-tuki järjestelmien suorituskyvyn ylläpitämiseksi</li>
+        <li>Verkkoturvallisuuden käyttöönotto, kuten palomuurit ja valvonta</li>
+        <li>Nopea vianmääritys ja IT‑ongelmien ratkaisu</li>
+        <li>Jatkuva IT‑tuki järjestelmien suorituskyvyn ylläpitämiseksi</li>
         <li>Tietosuojaratkaisut ja turvallisuuden parhaat käytännöt</li>
         <li>Ennaltaehkäisevä ylläpito käyttökatkosten ja häiriöiden estämiseksi</li>
     </ul>
     <p>
-        Turvallisuus- ja tukipalvelumme varmistavat, että yrityksesi toiminta on suojattua, luotettavaa ja keskeytymätöntä, jotta voit keskittyä kasvuun.
+        Palvelumme varmistavat, että yrityksesi toiminta on suojattua, luotettavaa ja keskeytymätöntä.
     </p>
     <a href="CNSS.html" class="btn-back">Takaisin etusivulle</a>
 </div>
 
 <footer>
-    <p>
-        &copy; 2026 CNSS Tech. Perustettu 2024. Kaikki oikeudet pidätetään.
-    </p>
-
-    <p>
-        IT-verkko- ja järjestelmäpalvelut | IT-konsultointi
-    </p>
+    <p>&copy; 2026 CNSS Tech. Perustettu 2024. Kaikki oikeudet pidätetään.</p>
+    <p>IT‑verkko- ja järjestelmäpalvelut | IT‑konsultointi</p>
 </footer>
 
 </body>
 </html>
+

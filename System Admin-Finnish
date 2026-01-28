@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Järjestelmänhallinta | CNSS Tech</title>
-    <meta name="description" content="Lue lisää CNSS Techin järjestelmänhallintapalveluista, kuten palvelinten käyttöönotosta, valvonnasta ja varmuuskopioinnista.">
+    <meta name="description" content="CNSS Tech tarjoaa järjestelmänhallintaa: palvelinten käyttöönotto, valvonta, varmuuskopiot ja suorituskyvyn optimointi yrityksesi tarpeisiin.">
 
     <style>
         body {
@@ -25,42 +25,42 @@
             font-weight: bold;
         }
 
-    .logo-blend {
-        height: 70px;
-        mix-blend-mode: multiply;
-        opacity: 0.9;
-        filter: contrast(1.05);
-    }
+        .logo-blend {
+            height: 70px;
+            mix-blend-mode: multiply;
+            opacity: 0.9;
+            filter: contrast(1.05);
+        }
 
-    .brand {
-        display: flex;
-        align-items: center;
-        gap: 1rem;;
-    }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
 
-    .brand-name {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #003135;
-        line-height: 1;
-    }
+        .brand-name {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #003135;
+            line-height: 1;
+        }
 
-.logo-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        .logo-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-.back-home {
-    margin-top: 0.3rem;
-    font-size: 0.85rem;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .back-home {
+            margin-top: 0.3rem;
+            font-size: 0.85rem;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-        header a:hover {
+        .back-home:hover {
             text-decoration: underline;
         }
 
@@ -112,14 +112,15 @@
     <div class="container">
         <div class="brand">
 
-    <div class="logo-wrapper">
-        <a href="CNSS.html">
-            <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech -logo" class="logo-blend">
-        </a>
-        <a href="CNSS.html" class="back-home">← Takaisin etusivulle</a>
-    </div>
+            <div class="logo-wrapper">
+                <a href="CNSS.html">
+                    <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech -logo" class="logo-blend">
+                </a>
+                <a href="CNSS.html" class="back-home">← Takaisin etusivulle</a>
+            </div>
 
-    <span class="brand-name">CNSS Tech</span>
+            <span class="brand-name">CNSS Tech</span>
+        </div>
     </div>
 </header>
 
@@ -136,20 +137,16 @@
         <li>Jatkuva ylläpito järjestelmien turvallisuuden ja ajantasaisuuden varmistamiseksi</li>
     </ul>
     <p>
-        Kun asiantuntijatiimimme huolehtii IT-infrastruktuuristasi, voit keskittyä yrityksesi kasvuun ilman huolta käyttökatkoista tai teknisistä ongelmista.
+        Kun asiantuntijatiimimme huolehtii IT‑infrastruktuuristasi, voit keskittyä yrityksesi kasvuun ilman huolta käyttökatkoista tai teknisistä ongelmista.
     </p>
     <a href="CNSS.html" class="btn-back">Takaisin etusivulle</a>
 </div>
 
 <footer>
-    <p>
-        &copy; 2026 CNSS Tech. Perustettu 2024. Kaikki oikeudet pidätetään.
-    </p>
-
-    <p>
-        IT-verkko- ja järjestelmäpalvelut | IT-konsultointi
-    </p>
+    <p>&copy; 2026 CNSS Tech. Perustettu 2024. Kaikki oikeudet pidätetään.</p>
+    <p>IT‑verkko- ja järjestelmäpalvelut | IT‑konsultointi</p>
 </footer>
 
 </body>
 </html>
+

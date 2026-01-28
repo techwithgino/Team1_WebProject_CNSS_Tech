@@ -1,0 +1,157 @@
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turvallisuus ja tuki | CNSS Tech</title>
+    <meta name="description" content="Lue lisää CNSS Techin turvallisuus- ja tukipalveluista, kuten verkkoturvallisuudesta, vianmäärityksestä ja jatkuvasta IT-tuesta.">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #003135;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #00887A;
+            color: #ffffff;
+            padding: 1rem;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+    .logo-blend {
+        height: 70px;
+        mix-blend-mode: multiply;
+        opacity: 0.9;
+        filter: contrast(1.05);
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 1rem;;
+    }
+
+    .brand-name {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #003135;
+        line-height: 1;
+    }
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-home {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #00887A;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin-left: 1.2rem;
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.6rem 1.5rem;
+            background: #00887A;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .btn-back:hover {
+            background: #024950;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #ffffff;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="brand">
+
+    <div class="logo-wrapper">
+        <a href="CNSS.html">
+            <img src="CNSS Tech Logo Only.PNG" alt="CNSS Tech -logo" class="logo-blend">
+        </a>
+        <a href="CNSS.html" class="back-home">← Takaisin etusivulle</a>
+    </div>
+
+    <span class="brand-name">CNSS Tech</span>
+    </div>
+    </div>
+</header>
+
+<div class="container">
+    <h1>Turvallisuus ja tuki</h1>
+    <p>
+        CNSS Tech tarjoaa ammattimaisia turvallisuus- ja tukipalveluja, joiden avulla IT-infrastruktuurisi pysyy turvallisena, vakaana ja täysin toimintakunnossa. Palveluihimme kuuluu:
+    </p>
+    <ul>
+        <li>Verkkoturvallisuuden käyttöönotto, mukaan lukien palomuurit ja valvonta</li>
+        <li>IT-ongelmien nopea vianmääritys ja ratkaisu</li>
+        <li>Jatkuva IT-tuki järjestelmien suorituskyvyn ylläpitämiseksi</li>
+        <li>Tietosuojaratkaisut ja turvallisuuden parhaat käytännöt</li>
+        <li>Ennaltaehkäisevä ylläpito käyttökatkosten ja häiriöiden estämiseksi</li>
+    </ul>
+    <p>
+        Turvallisuus- ja tukipalvelumme varmistavat, että yrityksesi toiminta on suojattua, luotettavaa ja keskeytymätöntä, jotta voit keskittyä kasvuun.
+    </p>
+    <a href="CNSS.html" class="btn-back">Takaisin etusivulle</a>
+</div>
+
+<footer>
+    <p>
+        &copy; 2026 CNSS Tech. Perustettu 2024. Kaikki oikeudet pidätetään.
+    </p>
+
+    <p>
+        IT-verkko- ja järjestelmäpalvelut | IT-konsultointi
+    </p>
+</footer>
+
+</body>
+</html>

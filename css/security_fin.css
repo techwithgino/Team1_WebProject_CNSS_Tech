@@ -1,11 +1,3 @@
-<html lang="fi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT‑konsultointi | CNSS Tech</title>
-    <meta name="description" content="CNSS Tech tarjoaa IT‑konsultointia: strateginen IT‑neuvonta, teknologiavalinnat, suunnittelu ja tehokkaat ratkaisut yrityksesi tarpeisiin.">
-
-    <style>
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
@@ -104,49 +96,3 @@
             text-align: center;
             margin-top: 3rem;
         }
-    </style>
-</head>
-<body>
-
-<header>
-<div class="container">
-        <div class="brand">
-
-    <div class="logo-wrapper">
-        <a href="index_fin.html">
-            <img src="10_img_logo.PNG" alt="CNSS Tech -logo" class="logo-blend">
-        </a>
-        <a href="index_fin.html" class="back-home">← Takaisin etusivulle</a>
-    </div>
-
-    <span class="brand-name">CNSS Tech</span>
-    </div>
-    </div>
-</header>
-
-<div class="container">
-    <h1>IT‑konsultointi</h1>
-    <p>
-        CNSS Tech tarjoaa asiantuntevaa IT‑konsultointia, joka auttaa yritystäsi tekemään perusteltuja teknologiavalintoja ja ratkaisemaan IT‑haasteita tehokkaasti. Palveluihimme kuuluu:
-    </p>
-    <ul>
-        <li>Strateginen IT‑neuvonta yrityksesi tavoitteiden mukaisesti</li>
-        <li>Teknologian suunnittelu infrastruktuurille, järjestelmille ja ohjelmistoille</li>
-        <li>Ongelmanratkaisu IT‑haasteisiin ja toiminnallisiin tehottomuuksiin</li>
-        <li>Ohjaus teknologiapäivityksissä ja uusien ratkaisujen käyttöönotossa</li>
-        <li>Tuki IT‑projektien hallintaan ja toteutukseen</li>
-    </ul>
-    <p>
-        Konsultointipalvelumme auttavat parantamaan tehokkuutta, turvallisuutta ja liiketoiminnan kasvua.
-    </p>
-    <a href="index_fin.html" class="btn-back">Takaisin etusivulle</a>
-</div>
-
-<footer>
-    <p>&copy; 2026 CNSS Tech. Perustettu 2024. Kaikki oikeudet pidätetään.</p>
-    <p>IT‑verkko- ja järjestelmäpalvelut | IT‑konsultointi</p>
-</footer>
-
-</body>
-</html>
-

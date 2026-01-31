@@ -1,11 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>System Administration | CNSS Tech</title>
-    <meta name="description" content="CNSS Tech provides System Administration services including server setup, monitoring, backups, and performance optimization for your business.">
-
-    <style>
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
@@ -104,48 +96,3 @@
             text-align: center;
             margin-top: 3rem;
         }
-    </style>
-</head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="brand">
-
-            <div class="logo-wrapper">
-                <a href="index.html">
-                    <img src="10_img_logo.PNG" alt="CNSS Tech Logo" class="logo-blend">
-                </a>
-                <a href="index.html" class="back-home">← Back to Home</a>
-            </div>
-
-            <span class="brand-name">CNSS Tech</span>
-        </div>
-    </div>
-</header>
-
-<div class="container">
-    <h1>System Administration</h1>
-    <p>
-        CNSS Tech provides professional System Administration services to ensure your systems remain reliable, optimized, and secure. Our services include:
-    </p>
-    <ul>
-        <li>Server setup and configuration tailored to your business needs</li>
-        <li>Continuous monitoring to detect and resolve issues before they impact operations</li>
-        <li>Regular backups and comprehensive disaster recovery planning</li>
-        <li>System optimization to improve performance and efficiency</li>
-        <li>Ongoing maintenance to keep systems secure and up to date</li>
-    </ul>
-    <p>
-        With our expert team managing your IT infrastructure, you can focus on growing your business without worrying about downtime or technical challenges.
-    </p>
-    <a href="index.html" class="btn-back">Back to Home</a>
-</div>
-
-<footer>
-    <p>&copy; 2026 CNSS Tech. Established 2024. All rights reserved.</p>
-    <p>IT Network & System Services | IT Consultancy</p>
-</footer>
-
-</body>
-</html>
